@@ -6,7 +6,7 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Digiti\\GoogleShoppingFeed\\": "src"
+            "Digiti\\GoogleTagmanager\\": "src"
         }
     },
     "require": {
@@ -17,10 +17,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Digiti\\GoogleShoppingFeed\\GoogleShoppingFeedServiceProvider"
+                "Digiti\\GoogleTagmanager\\GoogleTagmanagerServiceProvider"
             ],
             "aliases": {
-                "GoogleShoppingFeed": "Digiti\\GoogleShoppingFeed\\GoogleShoppingFeedFacade"
+                "GoogleTagmanager": "Digiti\\GoogleTagmanager\\GoogleTagmanagerFacade"
             }
         }
     },
